@@ -45,6 +45,6 @@ func play(input ArenaUpdate) (response string) {
 	log.Printf("IN: %#v", input)
 
 	commands := []string{"W", "A", "S", "D"}
-	rand := rand2.Intn(90)
+	rand := rand2.Intn(9)
 	return commands[rand]
 }
